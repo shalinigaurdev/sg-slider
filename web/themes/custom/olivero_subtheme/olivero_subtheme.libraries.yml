@@ -4,8 +4,11 @@ global:
     theme:
       dist/css/styles.css: {}
   js:
-    dist/js/scripts.js: {}
+    dist/js/scripts.js: { scope: footer }
   dependencies:
+    - system/admin
+    - core/jquery
+    - core/drupal
     - olivero/core
 
 slider:
@@ -14,6 +17,8 @@ slider:
     theme:
       styles/slider.css: {}
   js:
-    js/slider.js: {}
+    js/slider.js: { scope: footer }
   dependencies:
+    - system/admin
     - core/jquery
+    - core/drupal

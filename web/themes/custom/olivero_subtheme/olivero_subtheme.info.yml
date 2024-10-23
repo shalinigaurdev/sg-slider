@@ -2,7 +2,7 @@ name: 'Olivero Subtheme'
 type: theme
 description: 'A custom subtheme based on Olivero.'
 core_version_requirement: ^9 || ^10
-base theme: false
+base theme: olivero
 package: Custom
 
 libraries:

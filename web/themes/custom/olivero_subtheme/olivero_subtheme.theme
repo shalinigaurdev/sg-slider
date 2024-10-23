@@ -1,7 +1,9 @@
 <?php
 /**
- * Implements hook_page_attachments().
+ * Implements hook_preprocess_HOOK() for page templates.
  */
-function olivero_subtheme_page_attachments(array &$attachments) {
-  $attachments['#attached']['library'][] = 'olivero_subtheme/slider';
+function olivero_subtheme_preprocess_page(array &$variables) {
+  // Attach the slider library to the page.
+  $variables['#attached']['library'][] = 'olivero_subtheme/global';
+  $variables['#attached']['library'][] = 'olivero_subtheme/slider';
 }
