@@ -1,0 +1,10 @@
+name: 'Olivero Subtheme'
+type: theme
+description: 'A custom subtheme based on Olivero.'
+core_version_requirement: ^9 || ^10
+base theme: false
+package: Custom
+
+libraries:
+  - olivero_subtheme/global
+  - olivero_subtheme/slider

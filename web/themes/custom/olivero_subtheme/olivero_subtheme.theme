@@ -1,0 +1,7 @@
+<?php
+/**
+ * Implements hook_page_attachments().
+ */
+function olivero_subtheme_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'olivero_subtheme/slider';
+}

@@ -1,0 +1,19 @@
+global:
+  version: VERSION
+  css:
+    theme:
+      dist/css/styles.css: {}
+  js:
+    dist/js/scripts.js: {}
+  dependencies:
+    - olivero/core
+
+slider:
+  version: 1.0
+  css:
+    theme:
+      styles/slider.css: {}
+  js:
+    js/slider.js: {}
+  dependencies:
+    - core/jquery
